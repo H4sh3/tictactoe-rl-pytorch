@@ -6,7 +6,6 @@ import itertools
 from collections import deque
 
 import torch
-from torch import nn, sigmoid
 
 from board import play_game, is_draw
 from board import (CELL_X, CELL_O, RESULT_X_WINS, RESULT_O_WINS)
