@@ -2,7 +2,7 @@ from torch import nn
 
 INPUT_SIZE = 9
 OUTPUT_SIZE = 9
-hidden_layer = int((INPUT_SIZE/3)*2)+OUTPUT_SIZE
+hidden_layer = 36#int((INPUT_SIZE/3)*2)+OUTPUT_SIZE
 
 
 class NeuralNet(nn.Module):
